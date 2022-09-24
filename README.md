@@ -1,3 +1,3 @@
 # cardanohook-support
 
-This is the repo for raising support/feedback tickets for [Cardanohook](https://cardanohook.net/) services
+This is the repo to raise issues for support/feedback for [Cardanohook](https://cardanohook.net/) services
