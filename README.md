@@ -16,9 +16,7 @@ Almost all dApp on Cardano make transactions with ADA or native assets. Once a t
 **Endpoint:** PUT ​/api​/v1​/subscription​/register-tx
 
  - Sample subscription request
-
-
-    
+----   
     curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
     -H 'Content-Type: application/json' \
     -H 'Accept: application/json' \
@@ -27,16 +25,15 @@ Almost all dApp on Cardano make transactions with ADA or native assets. Once a t
     "webhookUrl" : "https://webhook.site/14e53d90-989b-4faf-91ad-89cdfbdeab99",
     "network" : "mainnet"
     }'
+----
 
-
-- Acknowledgment
- 
-
+- Acknowledgment response
+----         
     {
     "txHash" : "78879f7ef875e68ca7415062b9fda228c07d0ff3b5b6b66ee82738eca4b90a58",
     "refId" : "57c1db5d-8b71-4733-8141-e4a9d3c40306"
     }
-
+----
 
 - Webhook response
 
